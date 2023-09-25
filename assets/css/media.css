@@ -1,0 +1,229 @@
+@media (max-width: 480px) {
+    html,body {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .hero .btn-brand {
+        padding: 12px 20px;
+    }
+    .hero .icon-link {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    html,body {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    /* HEADER */
+    header {
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    header .top-nav {
+        display: none;
+    }
+
+    header .navbar {
+        background-color: #302d2d;
+    }
+
+    .hero .hero-text {
+        position: absolute;
+        left: -46%;
+        top: 50%;
+    }
+
+    /* ABOUT */
+    #about form {
+        display: none;
+    }
+
+    #about .about-box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* OFFER */
+    #offer {
+        position: relative;
+        height: 142vh;
+    }
+    #offer::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: #302d2d;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    #offer .offer-text {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+    #offer .offer-img {
+        max-width: 700px;
+    }
+    #offer .offer-img .deal {
+        display: none;
+    }
+
+    /* TESTIMONIALS */
+    #testimonials {
+        position: relative;
+    }
+    
+    #testimonials::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #302d2d;
+        z-index: -1;
+    }
+    #testimonials .intro {
+        text-align: center;
+    }
+    #testimonials .intro p {
+        margin-left: 20%;
+    }
+
+    /* PROJECTS */
+    #projects {
+        height: 400vh !important;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    html,body {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    /* HEADER */
+    header {
+        min-height: 100vh;
+    }
+
+    header .top-nav {
+        display: none;
+    }
+
+    header .navbar {
+        background-color: #302d2d;
+    }
+
+    header .navbar .btn-app {
+        padding: 12px;
+    }
+
+    header .navbar .navbar-brand {
+        font-size: 26px;
+    }
+
+    header .navbar .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+
+    .hero .hero-text {
+        position: absolute;
+        left: -46%;
+        top: 50%;
+    }
+
+    /* ABOUT */
+    #about form {
+        display: none;
+    }
+
+    #about .about-box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* OFFER */
+    #offer {
+        position: relative;
+        height: 130vh;
+    }
+    #offer::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: #302d2d;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    #offer .offer-text {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+    #offer .offer-img {
+        position: relative;
+        left: -20%;
+    }
+    #offer .offer-img img {
+        width: 140% !important;
+        height: 322px !important;
+    }
+    #offer .offer-img .deal {
+        display: none;
+    }
+
+    /* TESTIMONIALS */
+    #testimonials {
+        position: relative;
+    }
+    
+    #testimonials::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #302d2d;
+        z-index: -1;
+    }
+
+    #testimonials .intro {
+        text-align: center;
+    }
+
+    #testimonials .intro h1::after {
+        width: 35%;
+        margin: auto;
+        margin-top: 22px;
+        margin-bottom: 22px;
+    }
+    
+    #testimonials .intro p {
+        max-width: 400px;
+        margin-right: 15%;
+    }
+
+    #partner img {
+        width: 100%;
+    }
+
+    /* PROJECTS */
+    #projects {
+        height: 470vh;
+    }
+}
