@@ -137,6 +137,14 @@
         top: 50%;
     }
 
+    .hero .hero-text h4 {
+        font-size: 20px;
+    }
+    
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
     /* ABOUT */
     #about form {
         display: none;
