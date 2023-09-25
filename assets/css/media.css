@@ -70,6 +70,9 @@
         padding-bottom: 0px;
     }
     #offer .offer-img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
         max-width: 700px;
     }
     #offer .offer-img .deal {
