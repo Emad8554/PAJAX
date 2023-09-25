@@ -286,7 +286,6 @@ header {
 /* OFFER */
 #offer {
     position: relative;
-    height: 100vh;
 }
 
 #offer::after {
@@ -548,7 +547,6 @@ header {
 
 /* PROJECTS */
 #projects {
-    height: 110vh;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.699)), url("../images/projects.jpg");
     background-position: center;
     background-size: cover;
